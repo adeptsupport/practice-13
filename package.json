@@ -1,0 +1,28 @@
+{
+  "name": "practice-copy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adeptsupport/practice-13.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adeptsupport/practice-13/issues"
+  },
+  "homepage": "https://github.com/adeptsupport/practice-13#readme"
+}
+"scripts": {
+  "format-code-html": "prettier --check --write index.html",
+  "format-code-css": "prettier --check --write styles/**",
+  "format-code-js": "prettier --check --write scripts/**"
+ }
+ "devDependencies": {
+  "prettier": "^2.7.1"
+ }
+ ;
