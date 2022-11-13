@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format-code-html": "prettier --check --write index.html",
+    "format-code-css": "prettier --check --write styles/**",
+    "format-code-js": "prettier --check --write scripts/**"
   },
   "repository": {
     "type": "git",
@@ -15,14 +18,8 @@
   "bugs": {
     "url": "https://github.com/adeptsupport/practice-13/issues"
   },
-  "homepage": "https://github.com/adeptsupport/practice-13#readme"
+  "homepage": "https://github.com/adeptsupport/practice-13#readme",
+   "devDependencies": {
+    "prettier": "^2.7.1"
+  }
 }
-"scripts": {
-  "format-code-html": "prettier --check --write index.html",
-  "format-code-css": "prettier --check --write styles/**",
-  "format-code-js": "prettier --check --write scripts/**"
- }
- "devDependencies": {
-  "prettier": "^2.7.1"
- }
- ;
