@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "format-code-html": "prettier --check --write index.html",
     "format-code-css": "prettier --check --write styles/**",
-    "format-code-js": "prettier --check --write scripts/**"
+    "format-code-js": "prettier --check --write scripts/**",
+    "lint-styles": "stylelint styles/*.css"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,10 @@
     "url": "https://github.com/adeptsupport/practice-13/issues"
   },
   "homepage": "https://github.com/adeptsupport/practice-13#readme",
-   "devDependencies": {
-    "prettier": "^2.7.1"
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "stylelint": "^14.15.0",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-standard": "^29.0.0"
   }
 }
