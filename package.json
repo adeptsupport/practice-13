@@ -8,7 +8,8 @@
     "format-code-html": "prettier --check --write index.html",
     "format-code-css": "prettier --check --write styles/**",
     "format-code-js": "prettier --check --write scripts/**",
-    "lint-styles": "stylelint styles/*.css"
+    "lint-styles": "stylelint styles/*.css --fix",
+    "lint-scripts": "eslint scripts/*.js --fix"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,12 @@
   },
   "homepage": "https://github.com/adeptsupport/practice-13#readme",
   "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
     "prettier": "^2.7.1",
     "stylelint": "^14.15.0",
     "stylelint-config-prettier": "^9.0.4",
