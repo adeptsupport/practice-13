@@ -4,12 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format-code-html": "prettier --check --write \"index.html\"",
-    "format-code-css": "prettier --check --write \"styles/**\"",
-    "format-code-js": "prettier --check --write \"scripts/**\"",
-    "lint-styles": "stylelint \"styles/**/*.css\" --fix",
-    "lint-scripts": "eslint \"scripts/**/*.js\" --fix",
+    "check-all": "npm run format-code && npm run lint-styles && npm run lint-scripts",
+    "format-code": "prettier --check --write \"public/**\"",
+    "lint-styles": "stylelint \"public/styles/**/*.css\" --fix",
+    "lint-scripts": "eslint \"public/scripts/**/*.js\" --fix",
     "dev": "node server.js"
   },
   "repository": {
